@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mitrasip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo-show">
+            <img class="logo" src="img/logo.png" alt="">
+            <p>Mitrasip</p>
+        </div>
+        <img src="img/profile.png" onclick="window.location.href = 'login.html'" alt="profil">
+    </div>
+    <div class="container-dashboard">
+        <div class="container">
+            <div class="video-content" id="alrt">
+                <img src="img/videocall.svg" alt="">
+                <div class="video-self">
+                    <img src="img/videoself.svg" alt="">
+                </div>
+            </div>
+            <div class="video-button">
+                <div class="status">
+                    <div class="alert-div">
+                        <div class="border-alert"></div>
+                        <div class="alert">
+                        </div>
+                    </div>
+                    <p>Ongoing call</p>
+                </div>
+                <div class="caller-id">
+                    <p>Caller ID</p>
+                    <p>1:00:00</p>
+                </div>
+                <div class="button-call">
+                    <button class="btn-hold">
+                        <img src="img/play.svg" alt="">
+                    </button>
+                    <button class="btn-hold">
+                        <img src="img/holdcall.svg" alt="">
+                    </button>
+                    <button class="btn-end" onclick="window.location.href = 'incomingcall.html'">
+                        <img src="img/endcall.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="profile-info">
+            <div class="profile-items">
+                <div class="header-profile">
+                    <label>Profile Info</label>
+                </div>
+                <div class="items">
+                    <label>Extension</label>
+                    <input type="text" class="input-profile">
+                </div>
+                <div class="items">
+                    <label>Name</label>
+                    <input type="text" class="input-profile">
+                </div>
+                <div class="items">
+                    <label>Number</label>
+                    <input type="text" class="input-profile">
+                </div>
+                <div class="items">
+                    <label>Address</label>
+                    <input type="text" class="input-profile">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+</script>
+
+</html>
